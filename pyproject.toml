@@ -34,5 +34,5 @@ build-backend = "poetry.core.masonry.api"
 [tool.ruff]
 line-length = 120
 
-[mypy-aio_clients]
+[mypy]
 ignore_missing_imports = true
