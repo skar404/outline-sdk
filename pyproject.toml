@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "outline-sdk"
+version = "0.1.1"
+description = "Async Python SDK wrapper for Outline Manager VPN"
+authors = ["Denis Malin <denis@malina.page>"]
+license = "MIT License"
+readme = "README.md"
+
+homepage = "https://github.com/skar404/outline-sdk"
+repository = "https://github.com/skar404/outline-sdk"
+documentation = "https://github.com/skar404/outline-sdk"
+
+packages = [
+    { include = "outline_sdk" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvloop = "^0.17.0"
+pyrogram = "^2.0.106"
+aio-clients = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
