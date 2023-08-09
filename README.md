@@ -3,7 +3,15 @@
 > Thanks for the reverse engineering and docs project:
 > https://github.com/jadolg/outline-vpn-api 
 > Autor: @[jadolg](https://github.com/jadolg/)
+----
 
+## Install beta:
+
+```bash
+pip install outline-sdk
+```
+
+----
 # Example:
 
 ```python
