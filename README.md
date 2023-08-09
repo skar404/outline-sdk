@@ -1,8 +1,8 @@
-# Async outline manager sdk
+# Async Outline manager sdk
 
 > Thanks for the reverse engineering and docs project:
 > https://github.com/jadolg/outline-vpn-api 
-> Autor: @jadolg
+> Autor: @[jadolg](https://github.com/jadolg/)
 
 # Example:
 
