@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "outline-sdk"
-version = "0.1.1"
+version = "0.2.0"
 description = "Async Python SDK wrapper for Outline Manager VPN"
 authors = ["Denis Malin <denis@malina.page>"]
 license = "MIT License"
@@ -23,3 +23,6 @@ aio-clients = "^2.0.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
